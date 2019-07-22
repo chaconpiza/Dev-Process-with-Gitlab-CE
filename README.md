@@ -5,15 +5,15 @@ This document defines the CMM development process based on an agile methodology 
 
 1. [Introduction](#introduction)
 2. [Sprints](#sprints)
-- [Sprints Example](#Sprints-example)
+	- [Sprints Example](#Sprints-example)
 3. [User Stories](#user-stories)
-- [User Story Example](#user-story-example)
+	- [User Story Example](#user-story-example)
 4. [Tasks](#tasks)
 5. [Epics](#epics)
-- [Epic Example](#epic-example)
+	- [Epic Example](#epic-example)
 6. [Backlog](#backlog)
 7. [Boards](#boards)
-- [Board Example](#board-example)
+	- [Board Example](#board-example)
 
 ## Introduction
 
