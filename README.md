@@ -5,10 +5,11 @@ This document defines the CMM development process based on an agile methodology 
 
 1. [Introduction](#introduction)
 2. [Sprints](#sprints)
-3. [User Stories](#userstories)
+3. [User Stories](#user-stories)
 4. [Tasks](#tasks)
 5. [Epics](#epics)
 6. [Backlog](#backlog)
+7. [Boards](#boards)
 
 ## Introduction
 
@@ -26,7 +27,7 @@ They allow to organize issues into a cohesive group, with a start date and a due
 Set the milestone start date and due date to represent the start and end of the agile sprint.
 Add an issue to your agile sprint by associating the milestone to the issue.
 
-## UserStories
+## User Stories
 
 User stories may be written by various stakeholders including clients, users, managers or development team members.
 They are written as a informal description of one or more features related to the functionality of CMM.
@@ -104,3 +105,9 @@ The product backlog is the single authoritative source for things that a team wo
 During the Backlog Refinement meeting, the team defines new User Stories in the Backlog and reevaluate its priorities.
 
 To check the back log go to:
+
+## Boards
+
+In order to see the status of the current Sprint go the Board section and add the Milestone corresponding to the Spring.
+
+
