@@ -70,7 +70,8 @@ Whether splitting stories or creating tasks, the debate continues on many agile 
 
 Task are written by the dev-team and for the team braking down a User Story into parts, with defined and specific technical actions.
 
-In GitLab CE the Tasks are handled as task section in the description of the User Story (*Issue*).
+In GitLab CE the Tasks can be handled by adding a *task section* in the description of the User Story (*Issue*).
+See the in the [User Story Example](#user-story-example) the check boxes in the description.
 
 ## Epics
 
@@ -111,6 +112,7 @@ The User Stories that belong to an Epic should have as well at the top of the de
 ```
 Epic #22 Upgrade Kibana
 ```
+See the in the [User Story Example](#user-story-example) the reference to the Epic.
 
 ### Epic Example
 ![Alt](/epic_01.JPG "Epic as an Issue")
