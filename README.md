@@ -27,6 +27,8 @@ They allow to organize issues into a cohesive group, with a start date and a due
 Set the milestone start date and due date to represent the start and end of the agile sprint.
 Add an issue to your agile sprint by associating the milestone to the issue.
 
+Image 1, Sprints: ![Alt](/sprints_01.JPG "Sprints (Milestones)")
+
 ## User Stories
 
 User stories may be written by various stakeholders including clients, users, managers or development team members.
