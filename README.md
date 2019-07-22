@@ -1,4 +1,4 @@
-# Development Process with Gitlab CE
+# CMM Development Process with Gitlab CE
 This document defines the CMM development process based on an agile methodology perspective using Gitlab CE
 
 ## Content
@@ -19,7 +19,7 @@ It takes in consideration that all stakeholders are familiar with agile methodol
 ## Sprints
 
 The current CMM development process is conducted in iterations called Sprints, every Sprint lasts for 2 weeks.
-In the context of Gitlab the Sprints are called Milestones.
+In the context of Gitlab the Sprints are called *Milestones*.
 
 Milestones in Gitlab are a way to track issues to achieve a broader goal in a certain period of time.
 They allow to organize issues into a cohesive group, with a start date and a due date.
@@ -27,7 +27,7 @@ They allow to organize issues into a cohesive group, with a start date and a due
 Set the milestone start date and due date to represent the start and end of the agile sprint.
 Add an issue to your agile sprint by associating the milestone to the issue.
 
-Image 1, Sprints: ![Alt](/sprints_01.JPG "Sprints (Milestones)")
+Image: Sprints ![Alt](/sprints_01.JPG "Sprints (Milestones)")
 
 ## User Stories
 
@@ -35,9 +35,9 @@ User stories may be written by various stakeholders including clients, users, ma
 They are written as a informal description of one or more features related to the functionality of CMM.
 In Gitlab CE the User Stories are represented as Issues.
 
-Every User Story (Issue) must comply:
+Every User Story (*Issue*) must comply:
 
-- Is assigned at least to one Sprint (Milestone) or to the Backlog (Milestone)
+- Is assigned at least to one Sprint (*Milestone*) or to the Backlog (*Milestone*)
 
 - Has a Tag with the priority:
 	- prio: Low
@@ -55,6 +55,8 @@ Every User Story (Issue) must comply:
 During the Backlog Refinement meeting, the team defines new User Stories in the Backlog and reevaluate its priorities.
 During the Spring Planning meeting, the team defines who is assigned to the UserStories. 
 
+Image: User Story ![Alt](/userstory_01.JPG "Sprints (User Story)")
+
 ## Tasks
 
 How detailed the tasks within a user story should be?
@@ -62,7 +64,7 @@ Whether splitting stories or creating tasks, the debate continues on many agile 
 
 Task are written by the dev-team and for the team braking down a User Story into parts, with defined and specific technical actions.
 
-In GitLab CE the Tasks are handled as task section in the description of the User Story (Issue).
+In GitLab CE the Tasks are handled as task section in the description of the User Story (*Issue*).
 
 ## Epics
 
@@ -72,7 +74,7 @@ Gitlab Enterprise Edition (EE) has the infrastructure to handle Epics, however t
 
 In Gitlab CE a way to represent Epics is using Issues with the following characteristics:
 
-Every Epic (Issue)
+Every Epic (*Issue*)
 
 - Has the Tag:
 	- Epic
@@ -88,17 +90,23 @@ Every Epic (Issue)
 	- status: In progress
 	- status: To verify
 
-In the description
+At the top of the description:
 Includes the list of its User Stories:
 
-User Stories:
-1. #24 Change the default user in Kibana
-2. #25 Add Tempest Tests
+'''
+Epic User Stories:
 
-The User Stories that belong to an Epic should have at the top of the description:
+1. #813 Define development process with gitlab
+2. #814 Investigate: Migration of wiki
+'''
 
+The User Stories that belong to an Epic should have as well at the top of the description:
+
+'''
 Epic #22 Upgrade Kibana
+'''
 
+Image: Epic ![Alt](/epic_01.JPG "Sprints (Epic)")
 
 ## Backlog
 
@@ -106,10 +114,10 @@ The product backlog is the single authoritative source for things that a team wo
 
 During the Backlog Refinement meeting, the team defines new User Stories in the Backlog and reevaluate its priorities.
 
-To check the back log go to:
+To check the back log go to Milestones and select the Backlog or got to the Boards and filter by Milestone selecting Backlog.
 
 ## Boards
 
 In order to see the status of the current Sprint go the Board section and add the Milestone corresponding to the Spring.
 
-
+Image: Boards ![Alt](/board_01.JPG "Boards")
