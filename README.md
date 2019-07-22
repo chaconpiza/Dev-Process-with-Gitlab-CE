@@ -5,11 +5,15 @@ This document defines the CMM development process based on an agile methodology 
 
 1. [Introduction](#introduction)
 2. [Sprints](#sprints)
+- [Sprints Example](#Sprints-example)
 3. [User Stories](#user-stories)
+- [User Story Example](#user-story-example)
 4. [Tasks](#tasks)
 5. [Epics](#epics)
+- [Epic Example](#epic-example)
 6. [Backlog](#backlog)
 7. [Boards](#boards)
+- [Board Example](#board-example)
 
 ## Introduction
 
@@ -27,7 +31,8 @@ They allow to organize issues into a cohesive group, with a start date and a due
 Set the milestone start date and due date to represent the start and end of the agile sprint.
 Add an issue to your agile sprint by associating the milestone to the issue.
 
-Image: Sprints ![Alt](/sprints_01.JPG "Sprints (Milestones)")
+### Sprints Example
+![Alt](/sprints_01.JPG "Sprints (Milestones)")
 
 ## User Stories
 
@@ -55,7 +60,8 @@ Every User Story (*Issue*) must comply:
 During the Backlog Refinement meeting, the team defines new User Stories in the Backlog and reevaluate its priorities.
 During the Spring Planning meeting, the team defines who is assigned to the UserStories. 
 
-Image: User Story ![Alt](/userstory_01.JPG "Sprints (User Story)")
+### User Story Example
+![Alt](/userstory_01.JPG "Sprints (User Story)")
 
 ## Tasks
 
@@ -93,20 +99,21 @@ Every Epic (*Issue*)
 At the top of the description:
 Includes the list of its User Stories:
 
-'''
+```
 Epic User Stories:
 
-1. #813 Define development process with gitlab
-2. #814 Investigate: Migration of wiki
-'''
+  1. #813 Define development process with gitlab
+  2. #814 Investigate: Migration of wiki
+```
 
 The User Stories that belong to an Epic should have as well at the top of the description:
 
-'''
+```
 Epic #22 Upgrade Kibana
-'''
+```
 
-Image: Epic ![Alt](/epic_01.JPG "Sprints (Epic)")
+### Epic Example
+![Alt](/epic_01.JPG "Epic as an Issue")
 
 ## Backlog
 
@@ -120,4 +127,5 @@ To check the back log go to Milestones and select the Backlog or got to the Boar
 
 In order to see the status of the current Sprint go the Board section and add the Milestone corresponding to the Spring.
 
-Image: Boards ![Alt](/board_01.JPG "Boards")
+### Board Example
+![Alt](/board_01.JPG "Boards")
