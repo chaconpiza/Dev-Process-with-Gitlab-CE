@@ -42,7 +42,9 @@ In Gitlab CE the User Stories are represented as Issues.
 
 Every User Story (*Issue*) must comply:
 
-- Is assigned at least to one Sprint (*Milestone*) or to the Backlog (*Milestone*)
+- Is assigned to a specific Sprint (*Milestone*) or to the Backlog (*Milestone*)
+
+**Note** that In comparison to CodeBeamer, in Gitlab every User Story (*Issue*) can be related to only one Sprint (*Milestone*)
 
 - Has a Tag with the priority:
 	- prio: Low
